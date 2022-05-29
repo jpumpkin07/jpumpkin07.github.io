@@ -25,6 +25,11 @@
         padding: 15px;
         text-align: center;
       }
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
     </style>
   </head>
   
@@ -36,18 +41,18 @@
         <a href="projects.html">Projects</a> |
         <a href="blog.html">Blog</a> |
         <b><a href="art.html">Art Stuff</a></b> |
-        <a href="games.html">Games</a> |
+        <a href="smwmaker.html">SMW Maker</a> |
         <a href="curbit.html">CurbitCraft</a>
       </nav>
     </header>
 
     <!-- main stuff on webpage -->
     <article>
-      <p>Random pictures and drawings I have created over the years.</p>
+      <p>Random pictures, drawings and memes I made. Click an image to see it in fullscreen.</p>
 
       <div class="gallery">
-        <a target="_blank" href="curbit.png">
-        <img src="curbit.png" width="600" height="400"></a>
+        <a target="_blank" href="art/curbit.png">
+        <img src="art/curbit.png" width="600" height="400"></a>
         <div class="desc">Jungle created using CurbitCraft's custom world gen TerraformGenerator</div>
       </div>
 
@@ -86,8 +91,8 @@
         <img src="img_mountains.jpg" width="600" height="400"></a>
         <div class="desc">Add a description of the image here</div>
       </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br> <!-- 12 line breaks for one row of pictures -->
-    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+      <div class="clearfix"></div>
     </article>
     <footer>
       <h5>Powered by evil flying melons in outer space<br> <!-- because why not -->
