@@ -1,0 +1,36 @@
+body {
+  background-color: navajowhite;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+header {
+  background-color: orange;
+  font-family: "Quicksand", "Verdana", sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+footer {
+  background-color: black;
+  font-family: "Quicksand", "Verdana", sans-serif;
+  color: darkgray;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+article {
+  background-color: white;
+  color: dimgray;
+  font-family: "Verdana", sans-serif;
+  border-style: solid;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
