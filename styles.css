@@ -4,7 +4,6 @@ body {
   padding-right: 100px;
 }
 header {
-  position: relative;
   background-color: orange;
   font-family: sans-serif;
   color: white;
@@ -13,7 +12,6 @@ header {
   padding-bottom: 20px;
 }
 footer {
-  position: relative;
   background-color: black;
   font-family: sans-serif;
   color: darkgray;
